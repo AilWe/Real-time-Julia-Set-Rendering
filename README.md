@@ -16,7 +16,7 @@ Julia set is a set of complex numbers. The Julia set consists of values in which
 perturbation can cause drastic changes in the sequence of iterated function values [4]. 
 The family of complex quadratic gives a very popular complex dynamical system. The 
 Julia set can be expressed as the function
-$`f(z) = z^2 +c`$
+`f(z) = z^2 +c`
 
 ### `npm start`
 
