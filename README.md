@@ -10,6 +10,13 @@ functions, and control functions. CUDA is a parallel computing platform. It enab
 software developers to use GPU efficiently. CUDA-OpenGL Interoperability enables
 the calculation of OpenGL can be done in parallel to achieve better performance. Even 
 it is possible to finish all visualization without leaving GPU. 
+## Implementation
+
+Julia set is a set of complex numbers. The Julia set consists of values in which a small 
+perturbation can cause drastic changes in the sequence of iterated function values [4]. 
+The family of complex quadratic gives a very popular complex dynamical system. The 
+Julia set can be expressed as the function
+$`f(z) = z^2 +c`$
 
 ### `npm start`
 
