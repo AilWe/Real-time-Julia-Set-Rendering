@@ -1,4 +1,5 @@
-Run program:
+
+#Run program:
 sh run realTimeJuliaSet
 ./realTimeJuliaSet
 
