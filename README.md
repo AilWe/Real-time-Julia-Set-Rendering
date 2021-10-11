@@ -15,8 +15,14 @@ it is possible to finish all visualization without leaving GPU.
 Julia set is a set of complex numbers. The Julia set consists of values in which a small 
 perturbation can cause drastic changes in the sequence of iterated function values [4]. 
 The family of complex quadratic gives a very popular complex dynamical system. The 
-Julia set can be expressed as the function
-`f(z) = z^2 +c`
+Julia set can be expressed as the function\
+`f(z) = z^2 +c`\
+c is a complex number. For this iteration, the Julia set is a fractal. The calculation of 
+Julia set is computing intensive when 𝑐𝑐 is updating. Thus, we use CUDA for the 
+calculation.\
+
+`f(z) = z^2 + 0.578 * cos(a) + i* 0.578 * sin(a)`\
+The a has a range updated from 0 to 2* Pi.\
 
 ### `npm start`
 
