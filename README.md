@@ -1,10 +1,15 @@
 # This is a CUDA/OpenGL interoperability project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## introduction
 
-In the project directory, you can run:
+OpenGL is a graphics library with a wide range of APIs to render 2D and 3D graphics 
+on the screen. It provides more than 200 functions for easily rendering vector graphics
+on GPU, including primitive function, attribute functions, viewing functions, input 
+functions, and control functions. CUDA is a parallel computing platform. It enables 
+software developers to use GPU efficiently. CUDA-OpenGL Interoperability enables
+the calculation of OpenGL can be done in parallel to achieve better performance. Even 
+it is possible to finish all visualization without leaving GPU. 
 
 ### `npm start`
 
