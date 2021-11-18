@@ -21,7 +21,7 @@ c is a complex number. For this iteration, the Julia set is a fractal. The calcu
 Julia set is computing intensive when 𝑐𝑐 is updating. Thus, we use CUDA for the 
 calculation.
 
-`f(z) = z^2 + 0.578 * cos(a) + i* 0.578 * sin(a)`\
+$f(z) = z^2 + 0.578 * cos(a) + i* 0.578 * sin(a) $
 The a has a range updated from 0 to 2* Pi.
 The OpenGL is used to render the graphics. Majority calculation is finished on CUDA.
 
